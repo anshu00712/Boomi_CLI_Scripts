@@ -1,11 +1,11 @@
 # Command Line Interface reference implementation for Boomi CI/CD
 
-The CLI utility wraps calls to [Boomi Atomsphere APIs](https://help.boomi.com/bundle/integration/page/r-atm-AtomSphere_API_6730e8e4-b2db-4e94-a653-82ae1d05c78e.html). Handles input and output JSON files and performance orchestration for deploying and managing Boomi runtimes, components and metadata required for CI/CD. 
+The CLI utility wraps calls to [Boomi Atomsphere APIs](https://help.boomi.com/bundle/atomsphere_platform/page/int-AtomSphere_API_Tokens_page.html). Handles input and output JSON files and performance orchestration for deploying and managing Boomi runtimes, components and metadata required for CI/CD. 
   
 ## Pre-requistes
   - The CLI utility currently runs on any Unix OS and invokes BASH shell scripts
   - On Windows this has been tested with [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
-  - Boomi Atomsphere API token to be generated [link](https://help.boomi.com/bundle/integration/page/int-AtomSphere_API_Tokens_page.html)
+  - Boomi Atomsphere API token to be generated [link](https://help.boomi.com/bundle/atomsphere_platform/page/int-AtomSphere_API_Tokens_page.html)
   - The CLI utility requires jq - JSON Query interpreter installed 
   - The CLI requires xmllit interpreter 
   
